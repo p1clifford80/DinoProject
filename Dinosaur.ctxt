@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=t
+comment0.target=void\ setType(java.lang.String)
+comment1.params=
+comment1.target=java.lang.String\ getType()
+comment2.params=g
+comment2.target=void\ setGender(boolean)
+comment3.params=
+comment3.target=boolean\ getGender()
+comment4.params=a
+comment4.target=void\ setAge(int)
+comment5.params=
+comment5.target=int\ getAge()
+comment6.params=d
+comment6.target=boolean\ attack(Dinosaur)
+comment7.params=
+comment7.target=java.lang.String\ toString()
+numComments=8
