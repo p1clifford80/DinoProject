@@ -40,6 +40,16 @@ public abstract class Dinosaur
     {
         return age;
     }
+    
+    public boolean isMate(Dinosaur d)
+    {
+        boolean mate = false;
+        if(this.getType().equals(d.getType()))
+            if (getGender() != d.getGender())
+                mate = true;
+        return mate;
+        
+    }
 
     public abstract boolean attack(Dinosaur d);
     

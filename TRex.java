@@ -26,17 +26,22 @@ public class TRex extends Dinosaur
     public boolean attack(Dinosaur d)
     {
         boolean attackerWins;
+        double chance = Math.random();
         if (d instanceof TRex)
-            if ((Math.random()>0.5))
+            if (chance<0.4)
             {
                 d.setAge(-1);
                 attackerWins = true;
+                System.out.println("TRex defeats "+d.getType());
             }
-            else
+            else if (chance<0.8)
             {
                 setAge(-1);
                 attackerWins = false;
+                System.out.println(d.getType()+" defeats TRex.");
             }
+            else
+                attackerWins = false;
         else
         {
             d.setAge(-1);

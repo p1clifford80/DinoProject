@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Velo()
+comment1.params=a
+comment1.target=Velo(int)
+comment2.params=o
+comment2.target=int\ compareTo(java.lang.Object)
+comment3.params=d
+comment3.target=boolean\ attack(Dinosaur)
+numComments=4
