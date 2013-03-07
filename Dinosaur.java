@@ -44,9 +44,12 @@ public abstract class Dinosaur
     public boolean isMate(Dinosaur d)
     {
         boolean mate = false;
-        if(this.getType().equals(d.getType()))
-            if (getGender() != d.getGender())
-                mate = true;
+        if(d.getAge()>5 && age > 5)
+        {
+            if(this.getType().equals(d.getType()))
+                if (getGender() != d.getGender())
+                    mate = true;
+        }
         return mate;
         
     }
